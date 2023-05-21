@@ -1,0 +1,44 @@
+#color-options {
+  position: fixed;
+  top: 0;
+  right: 0;
+  transform: translate(0%, -0%);
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#color-options label {
+  display: block;
+  margin-right: 10px;
+}
+
+#color-options select {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.tooltip {
+  position: absolute;
+  color: #fff;
+  padding: 8px;
+  font-size: 12px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  opacity:0
+
+
+}
+#levelSelect {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
